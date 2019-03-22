@@ -2,4 +2,4 @@
   border-width: $thickness;
 }
 
-img {@include border-width((10px))}
+img { @include border-width(10px)};

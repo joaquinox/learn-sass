@@ -1,7 +1,8 @@
-@mixin border-width($thickness) {
-  border-width: $thickness;
-  @content;
-  border-style: solid;
+.push-button {
+  background-color: blue;
 }
 
-img { @include border-width(10px)};
+.main-button {
+  @extend .push-button;
+  font-weight: bold;
+}

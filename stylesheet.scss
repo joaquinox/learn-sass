@@ -1,8 +1,8 @@
-.push-button {
-  background-color: blue;
-}
 
-.main-button {
-  @extend .push-button;
-  font-weight: bold;
+$page-width: 1400px;
+$padding: 20px;
+
+.container {
+  padding: $padding;
+  width: 0.8 * $page-width - ($padding * 2);
 }

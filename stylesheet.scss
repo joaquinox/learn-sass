@@ -1,4 +1,4 @@
-button {
-  color: black; 
-  &:focus { color: red };
-  };
+$selector: 'article';
+#{$selector} {
+  color: #ff0000;
+}
